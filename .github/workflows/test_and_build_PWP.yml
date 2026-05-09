@@ -38,8 +38,7 @@ jobs:
       run: playwright install
 
     - name: UI
-      run: xvfb-run python
-
+      run: xvfb-run pytest
 
     - name: Test with pytest
       run: pytest
