@@ -1,0 +1,32 @@
+
+instalar paquete pytest para playwright en consola
+
+pip install pytest-playwright
+
+video
+https://www.youtube.com/watch?v=SjNpSGW4otM
+
+URL
+https://saucedemo.com
+Login con user name y passwords user y passwords
+
+https://saucedemo.com/inventory.html
+
+Todos los test deben de iniciar con Test para que pytest los encuentre para su ejecución
+
+commandos de pytest desde consola
+
+-- headed
+--base-url https://saucedemo.com
+--browser chromium 
+--browser web kit
+--browser firefox
+
+referencia directa a chrome
+--browser channel chrome
+
+--tracing on
+retain-on-failure
+
+pagina para ver los resultados
+https://trace.playwright.dev
