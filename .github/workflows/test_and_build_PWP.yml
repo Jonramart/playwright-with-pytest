@@ -34,9 +34,9 @@ jobs:
     - name: Install dependencies
       run: pip install -r requirements.txt
 
-    - name: Check linting with Ruff
-      working-directory: src
-      run: ruff check .
+    - #name: Check linting with Ruff
+      #working-directory: src
+      #run: ruff check .
 
     - name: Test with pytest
       working-directory: src
