@@ -38,11 +38,11 @@ jobs:
       run: playwright install
 
     - name: UI
-      run: xvfb-run pytest
+      run: xvfb-run pytest test/test_saucedemo.py
 
 
     - name: Test with pytest
-      run: pytest
+      run: pytest test/test_saucedemo.py
 
     - name: Login to GitHub Container Registry
       uses: docker/login-action@v4
