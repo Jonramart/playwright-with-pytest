@@ -19,4 +19,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copia del código fuente
 COPY . .
 
-CMD ["python", "test_saucedemo.py"]
+CMD ["pytest", "test_saucedemo.py"]
