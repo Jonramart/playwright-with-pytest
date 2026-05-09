@@ -38,7 +38,7 @@ jobs:
       run: playwright install
 
     - name: UI
-      run: xvfb-run pytest test/test_saucedemo.py
+      run: xvfb-run pytest
 
 
     - name: Test with pytest
