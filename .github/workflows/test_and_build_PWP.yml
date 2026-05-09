@@ -37,6 +37,9 @@ jobs:
     - name: Install browsers
       run: playwright install
 
+    - name: UI
+      run: xvfb-run python
+
 
     - name: Test with pytest
       run: pytest
